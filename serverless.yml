@@ -1,0 +1,27 @@
+service: serverless-email
+
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+
+functions:
+  sendEmail:
+    handler: handler.send_email
+    events:
+      - httpApi:
+          path: /send-email
+          method: POST
+
+  root:
+    handler: handler.root
+    events:
+      - httpApi:
+          path: /
+          method: GET
+
+plugins:
+  - serverless-offline
+
