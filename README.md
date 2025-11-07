@@ -9,7 +9,7 @@ Supports input validation, proper HTTP response codes, and error handling.
 1. Clone the repository:
 
 ```
-git clone 
+git clone https://github.com/MulaBharathi/serverless-email
 cd serverless-email
 ```
 
