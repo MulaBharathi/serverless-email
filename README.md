@@ -13,13 +13,7 @@ git clone https://github.com/MulaBharathi/serverless-email
 cd serverless-email
 ```
 
-2. Install Python dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Create a .env file in the project root:
+2. Create a .env file in the project root:
 
 ```
 EMAIL_USER=your_email@gmail.com
@@ -27,7 +21,7 @@ EMAIL_PASS=your_app_password
 ```
 
 
-4. Start Serverless Offline:
+3. Start Serverless Offline:
 
 ```
 sls offline
