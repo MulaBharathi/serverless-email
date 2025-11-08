@@ -1,9 +1,5 @@
 # Serverless Email API
 
-A Serverless REST API built with **AWS Lambda** and **Python** that sends emails using Gmail SMTP.  
-Supports input validation, proper HTTP response codes, and error handling.  
-
-
 ## Setup Instructions
 
 1. Clone the repository:
