@@ -10,6 +10,7 @@ provider:
 functions:
   sendEmail:
     handler: handler.send_email
+    timeout: 30
     events:
       - httpApi:
           path: /send-email
